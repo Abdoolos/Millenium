@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #E8EDF5;
+  --color-primary-100: #C5D1E8;
+  --color-primary-200: #9DB2D6;
+  --color-primary-300: #7593C4;
+  --color-primary-400: #4A72AE;
+  --color-primary-500: #1A3C6E;
+  --color-primary-600: #163461;
+  --color-primary-700: #112A50;
+  --color-primary-800: #0D1F3D;
+  --color-primary-900: #0D1B2A;
+
+  --color-accent-50: #FFF7ED;
+  --color-accent-100: #FFEDD5;
+  --color-accent-200: #FED7AA;
+  --color-accent-300: #FDBA74;
+  --color-accent-400: #FB923C;
+  --color-accent-500: #F97316;
+  --color-accent-600: #EA580C;
+  --color-accent-700: #C2410C;
+
+  --color-navy: #0D1B2A;
+  --color-navy-light: #132D46;
+  --color-navy-lighter: #1B3A5C;
+
+  --color-surface: #FFFFFF;
+  --color-surface-dim: #F8F9FA;
+  --color-surface-dimmer: #F1F3F5;
+
+  --color-text-primary: #1F2937;
+  --color-text-secondary: #6B7280;
+  --color-text-muted: #9CA3AF;
+
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text-primary);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+::selection {
+  background-color: #F97316;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8F9FA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1A3C6E;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F97316;
+}
