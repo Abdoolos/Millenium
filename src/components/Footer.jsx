@@ -37,7 +37,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-white/40 text-sm leading-relaxed max-w-xs mx-auto md:mx-0">
-              Ditt lokale serviceselskap for praktisk hjelp og fleksible hverdagstjenester i hele Norge.
+              Ditt lokale serviceselskap for praktisk hjelp og fleksible hverdagstjenester i Oslo & Viken.
             </p>
           </div>
 
@@ -74,7 +74,7 @@ export default function Footer() {
               </a>
               <div className="flex items-center gap-3 text-white/40 justify-center md:justify-start">
                 <MapPin className="w-4 h-4 text-accent-500" />
-                <span className="text-sm">Hele Norge</span>
+                <span className="text-sm">Oslo & Viken Område</span>
               </div>
             </div>
           </div>

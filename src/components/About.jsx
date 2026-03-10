@@ -69,7 +69,7 @@ export default function About() {
             </h2>
             <p className="mt-6 text-text-secondary text-lg leading-relaxed">
               Millenium Servicesenter AS er et lokalt serviceselskap som tilbyr praktisk hjelp og
-              fleksible hverdagstjenester i hele Norge. Vi er tilgjengelige,
+              fleksible hverdagstjenester i Oslo og Viken-området. Vi er tilgjengelige,
               pålitelige og alltid klare til å hjelpe.
             </p>
 

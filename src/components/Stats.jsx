@@ -5,7 +5,7 @@ import { Users, CalendarCheck, UserCheck, MapPin } from 'lucide-react'
 const stats = [
   { icon: CalendarCheck, end: 0, suffix: '', label: 'Års erfaring', displayText: 'Lang' },
   { icon: UserCheck, end: 0, suffix: '', label: 'Arbeidere', displayText: 'Proffe' },
-  { icon: MapPin, end: 0, suffix: '', label: 'Hele Norge', displayText: 'Norge' },
+  { icon: MapPin, end: 0, suffix: '', label: 'Oslo & Viken', displayText: 'Lokalt' },
 ]
 
 function StatCard({ stat, index, isVisible }) {

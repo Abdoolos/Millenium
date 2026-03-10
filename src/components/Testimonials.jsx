@@ -5,7 +5,7 @@ import { Star, Quote } from 'lucide-react'
 const testimonials = [
   {
     name: 'Anders Johansen',
-    role: 'Boligeier i Norge',
+    role: 'Boligeier i Oslo',
     text: 'Fantastisk service! De kom raskt og gjorde en grundig jobb med rengjøringen. Veldig fornøyd med resultatet og den profesjonelle behandlingen.',
     rating: 5,
     initials: 'AJ',

@@ -5,7 +5,7 @@ import { Phone, MapPin, Clock, Send, CheckCircle2, User, MessageSquare } from 'l
 
 const contactInfo = [
   { icon: Phone, label: 'Telefon', value: '944 46 425', href: 'tel:94446425' },
-  { icon: MapPin, label: 'Område', value: 'Hele Norge', href: null },
+  { icon: MapPin, label: 'Område', value: 'Oslo & Viken Område', href: null },
   { icon: Clock, label: 'Åpningstider', value: 'Man–Fre: 08:00–18:00\nLør: 09:00–15:00', href: null },
 ]
 

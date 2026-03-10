@@ -24,7 +24,7 @@ export default function Hero() {
               transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
             >
               <span className="inline-flex items-center px-4 py-1.5 rounded-full bg-accent-500 text-white text-sm font-semibold tracking-wide shadow-lg shadow-accent-500/20">
-                Hele Norge
+                Oslo & Viken Område
               </span>
             </motion.div>
 
@@ -102,7 +102,7 @@ export default function Hero() {
               <div className="w-full aspect-[6/5] rounded-[2rem] overflow-hidden relative">
                 <img
                   src="/images/hero2.png"
-                  alt="Millenium Servicesenter — profesjonelt team i Norge"
+                  alt="Millenium Servicesenter — profesjonelt team i Oslo & Viken"
                   className="w-full h-full object-cover"
                 />
                 {/* Soft blending edges */}

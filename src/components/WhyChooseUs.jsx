@@ -6,7 +6,7 @@ const features = [
   {
     icon: Globe,
     title: 'Lokal ekspertise',
-    description: 'Vi kjenner Norge godt. Vår tilstedeværelse gir deg rask og effektiv service uansett hvor du er.',
+    description: 'Vi kjenner Oslo og Viken godt. Vår lokale tilstedeværelse gir deg rask og effektiv service.',
     gradient: 'from-primary-500 to-primary-700',
     light: 'bg-primary-50',
     iconColor: 'text-primary-600',
