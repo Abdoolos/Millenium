@@ -19,10 +19,10 @@ function StatCard({ stat, index, isVisible }) {
       className="relative group text-center"
     >
       <div className="relative z-10">
-        <div className="w-16 h-16 mx-auto rounded-2xl bg-white/[0.08] backdrop-blur-sm border border-white/[0.08] flex items-center justify-center mb-5 group-hover:bg-accent-500/20 group-hover:border-accent-500/20 transition-all duration-500">
-          <stat.icon className="w-7 h-7 text-accent-400" strokeWidth={1.5} />
+        <div className="w-14 h-14 sm:w-16 sm:h-16 mx-auto rounded-2xl bg-white/[0.08] backdrop-blur-sm border border-white/[0.08] flex items-center justify-center mb-4 sm:mb-5 group-hover:bg-accent-500/20 group-hover:border-accent-500/20 transition-all duration-500">
+          <stat.icon className="w-6 h-6 sm:w-7 sm:h-7 text-accent-400" strokeWidth={1.5} />
         </div>
-        <div className="font-heading font-bold text-4xl lg:text-5xl text-white mb-2">
+        <div className="font-heading font-bold text-3xl sm:text-4xl lg:text-5xl text-white mb-2">
           {stat.displayText ? (
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-400 to-accent-500">
               {stat.displayText}
@@ -36,7 +36,7 @@ function StatCard({ stat, index, isVisible }) {
             </>
           )}
         </div>
-        <p className="text-white/60 text-sm font-medium tracking-wide">{stat.label}</p>
+        <p className="text-white/60 text-xs sm:text-sm font-medium tracking-wide">{stat.label}</p>
       </div>
     </motion.div>
   )
@@ -56,7 +56,7 @@ export default function Stats() {
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-accent-500/[0.06] rounded-full blur-[120px]" />
 
       <div ref={sectionRef} className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-3 gap-10 lg:gap-16">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-10 lg:gap-16">
           {stats.map((stat, index) => (
             <StatCard key={stat.label} stat={stat} index={index} isVisible={isVisible} />
           ))}
